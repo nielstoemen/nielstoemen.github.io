@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: #223E7F;
+    height: 75px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+main{
+    width: 100%;
+}
+
+.textoverpic{
+    position: relative;
+    font-family: Arial;
+    height: 250px;
+    width: 100%;
+}
+
+.textimg{
+    position: absolute;
+    bottom: 20px;
+    background-color: #5678C5;
+    color: white;
+    margin-left: 600px;
+    width: 20%;
+    text-align: center;
+}
+
+.textbog1{
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+    background-color: #acc1f1;
+}
