@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niels Toemen</title>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <h6>‎</h6>
     </nav>
     <main>
         <div class="textoverpic">
@@ -20,9 +22,56 @@
             </div>
         </div>
         <div class="textbog1">
-            <p class="textbol">Mijn naam is Niels Toemen, <br> Ik ben een student software developer op het ROC Nijmegen. <br> Ik ben 16 jaar en ben een enorm enthausiaste progameur met veel ambities. <br> Ik ben tot nu toe het meest bekend met HTML en CSS. 
-            </p>
+            <img src="image/niels-wintervaka.jpg" alt="foto niels" style="width: 25%; height: 250px; margin: 15px;">
+            <h1 class="naam">Niels Toemen</h1>
+            <p class="textbol">Mijn naam is Niels Toemen, <br> Ik ben een student software developer op het ROC Nijmegen. <br> Ik ben 16 jaar en ben een enorm enthausiaste progameur met veel ambities. <br> Ik ben tot nu toe het meest bekend met HTML en CSS. </p>
+            <p class="textbol">Ik ben een Software developer in opleiding. Op dit moment leer ik de talen:</p>
+            <table class="opsomming">
+                <tr>
+                    <td>html & css</td>
+                </tr>
+                <tr>
+                    <td>java</td>
+                </tr>
+                <tr>
+                    <td>python</td>
+                </tr>
+            </table>
+            <p class="textbol">Ik zit in het eerste jaar van de opleiding Software developer. Ik heb veel ambitie in Software devdlopment en wil het liefst naar de gamedevelop industry. </p>
+            </div>
+            
+        <div class="textbog1">
+            <p class="prestaties-titel">In de onderstaande tabel kunt u enkele van mijn projecten zien:</p>
+            <table class="projecten">
+                <tr>
+                    <td>greenfoot java project</td>
+                    <td>python click counter project</td>
+                </tr>
+                <tr>
+                    <td><img id="myImg" alt="java" src="image/greenfoot1.jpg" alt="java greenfoot project" class="projectfotos"></td>
+                    <td><img id="Imgmy" alt="python" src="image/python-1.png" alt="python c5 plus stick project" class="projectfotos"></td>
+                </tr>
+            </table>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+              <a href="bestanden/2021-12-29 (6)-geconverteerd.pdf" target="_blank"><button class="cv">CV</button></a>
         </div>
     </main>
+    <footer class="contactstuk">
+        <table class="stukcontact">
+            <tr>
+                <td>E-mail:</td>
+                <td>nielstoemen@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Number:</td>
+                <td>06 21444161</td>
+            </tr>
+        </table>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
